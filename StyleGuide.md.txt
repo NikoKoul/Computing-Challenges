@@ -4,6 +4,9 @@ This guide should detail the steps used by every participating developer
 when they want to post a solution to a new problem.
 
 ## Issues:
+If you want to start working on a problem, post an issue so that other's know that you have taken 
+ownership of that one.  This way we don't waste too much time making duplicate solutions!
+
 For your first problem, open an issue with a descriptive title and a 
 brief description of why you are posting it.  This is just to give you an idea of 
 what an issue should look like.  
