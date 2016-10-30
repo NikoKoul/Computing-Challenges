@@ -1,32 +1,11 @@
 #braille
 #the 6 letter values for each letter
-A = 'xooooo'
-B = 'xoxooo'
-C = 'xxoooo'
-D = 'xxoxoo'
-E = 'xooxoo'
-F = 'xxxooo'
-G = 'xxxxoo'
-H = 'xoxxoo'
-I = 'oxxooo'
-J = 'oxxxoo'
-K = 'xoooxo'
-L = 'xoxoxo'
-M = 'xxooxo'
-N = 'xxoxxo'
-O = 'xooxxo'
-P = 'xxxoxo'
-Q = 'xxxxxo'
-R = 'xoxxxo'
-S = 'oxxoxo'
-T = 'oxxxxo'
-U = 'xoooxx'
-V = 'xoxoxx'
-W = 'oxxxox'
-X = 'xxooxx'
-Y = 'xxoxxx'
-Z = 'xooxxx'
-SPACE = 'oooooo'
+letters = {'xooooo': 'a','xoxooo': 'b','xxoooo': 'c','xxoxoo': 'd','xooxoo': 'e',\
+           'xxxooo': 'f','xxxxoo': 'g','xoxxoo': 'h','oxxooo': 'i','oxxxoo': 'j',\
+           'xoooxo': 'k','xoxoxo': 'l','xxooxo': 'm','xxoxxo': 'n','xooxxo': 'o',\
+           'xxxoxo': 'p','xxxxxo': 'q','xoxxxo': 'r','oxxoxo': 's','oxxxxo': 't',\
+           'xoooxx': 'u','xoxoxx': 'v','oxxxox': 'w','xxooxx': 'x','xxoxxx': 'y',\
+           'xooxxx': 'z','oooooo': ' '}
 #collect and organize input into 2D list
 whole = []
 for i in range(5):
@@ -57,59 +36,6 @@ for i in range(5):
         
     #translate it (is there a faster way of doing this?)
     for lett in line:
-        if lett == A:
-            sent.append('a')
-        elif lett == B:
-            sent.append('b')
-        elif lett == C:
-            sent.append('c')
-        elif lett == D:
-            sent.append('d')
-        elif lett == E:
-            sent.append('e')
-        elif lett == F:
-            sent.append('f')
-        elif lett == G:
-            sent.append('g')
-        elif lett == H:
-            sent.append('h')
-        elif lett == I:
-            sent.append('i')
-        elif lett == J:
-            sent.append('j')
-        elif lett == K:
-            sent.append('k')
-        elif lett == L:
-            sent.append('l')
-        elif lett == M:
-            sent.append('m')
-        elif lett == N:
-            sent.append('n')
-        elif lett == O:
-            sent.append('o')
-        elif lett == P:
-            sent.append('p')
-        elif lett == Q:
-            sent.append('q')
-        elif lett == R:
-            sent.append('r')
-        elif lett == S:
-            sent.append('s')
-        elif lett == T:
-            sent.append('t')
-        elif lett == U:
-            sent.append('u')
-        elif lett == V:
-            sent.append('v')
-        elif lett == W:
-            sent.append('w')
-        elif lett == X:
-            sent.append('x')
-        elif lett == Y:
-            sent.append('y')
-        elif lett == Z:
-            sent.append('z')
-        elif lett == SPACE:
-            sent.append(' ')
+        sent.append(letters[lett])
     #print the translated line
     print ''.join(sent)
