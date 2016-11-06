@@ -41,3 +41,9 @@ while True:
     #print x
     #encrypt()
     decrypt()
+#inputs
+#a.ua ltveehabn et cesg.e'i h l j etscce xIeethnaLnd
+#ase  Stturot l?etl ladoreyeebuh 
+#'nu  n. ithdtBiItdk
+#dI, sTou.tk' tyt  nsututtoeao thihnhui'njayol kth f nl.d ' s
+#a ' nee s k tntoaa hre cn,mv.gtdt o'IhiIoye
