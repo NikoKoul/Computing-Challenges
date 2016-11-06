@@ -33,11 +33,11 @@ def decrypt():
     print string
 while True:
     z = raw_input()
-    print z
+    #print z
     x = []
     for p in z:
         x +=[p]
-    print len(x)
-    print x
+    #print len(x)
+    #print x
     #encrypt()
     decrypt()
