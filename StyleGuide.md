@@ -3,6 +3,14 @@
 This guide should detail the steps used by every participating developer
 when they want to post a solution to a new problem.
 
+For Python check out [Google's Python Style Guide](https://google.github.io/styleguide/pyguide.html) 
+or the [Official Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
+
+For Ruby check out [Shopify's Ruby Style Guide](http://shopify.github.io/ruby-style-guide/) 
+or the [Rubo-Cop Ruby Style Guide](https://github.com/github/rubocop-github/blob/master/STYLEGUIDE.md)
+
+Keep in mind that these guides are not the be-all,end-all on how you should code, but it should give you an idea of industry standard.
+
 ## Issues:
 If you want to start working on a problem, post an issue so that other's know that you have taken 
 ownership of that one.  This way we don't waste too much time making duplicate solutions!
