@@ -22,7 +22,7 @@ A pull request, referred to as PR, is a way of letting others view your work bef
 Here are the steps in making and deploying your PR:
 
 1.  Make a descriptive, but brief title i.e. "Updating ECOO 2012 Question 3 to use dictionaries"
-2.  Leave a description of what you are doing, why you're doing it, and how your solution does what you proport it to do.
+2.  Leave a description of what you are doing, why you're doing it, and how your solution does what you purport it to do.
 3.  Ping at least 1 other person for code review, so that they can give you ideas and suggestions.
 4.  When you've gotten a thumbs up, merge into master, but squash your unnecessary commits first!   
 	
